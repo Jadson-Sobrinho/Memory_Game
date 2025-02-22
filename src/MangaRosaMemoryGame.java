@@ -8,6 +8,8 @@ public class MangaRosaMemoryGame {
     public static void menu(){
         Scanner scanner = new Scanner(System.in);
         int start;
+        int tamanhoJogo;
+        String player01, player02;
 
         System.out.println("\n------------------------------------------------------------------------------");
         System.out.println("----------------------------Manga Rosa Memory Game----------------------------");
@@ -20,16 +22,25 @@ public class MangaRosaMemoryGame {
         switch (start){
             case 1:
             {
-                int op;
 
                 System.out.println("------------------------------------------------------------------------------");
                 System.out.println("----------------------------Configurações do Jogo-----------------------------");
                 System.out.println("------------------------------------------------------------------------------");
                 System.out.println("Qual tamanho do tabuleiro dejesa jogar?");
+                System.out.println(" 1- 4x4\n 2- 6x6\n 3- 8x8\n 4- 10x10\n");
+                System.out.println("Digite a opção: ");
+                tamanhoJogo = scanner.nextInt();
+                scanner.nextLine();
                 System.out.println("------------------------------------------------------------------------------");
+                System.out.println("Qual o nome do Jogador 01: ");
+                player01 = scanner.nextLine();
                 System.out.println("------------------------------------------------------------------------------");
+
+                System.out.println("Qual o nome do Jogador 02:");
+                player02 = scanner.nextLine();
                 System.out.println("------------------------------------------------------------------------------");
-                System.out.println("------------------------------------------------------------------------------");
+
+
                 break;
             }
             case 2:
