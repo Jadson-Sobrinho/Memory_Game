@@ -15,8 +15,6 @@ Esta documentação detalha cada parte do código do **Manga Rosa Memory Game**,
   - [5. Classe `Game`](#5-classe-game)
 - [Regras do Jogo](#regras-do-jogo)
 - [Como Executar](#como-executar)
-- [Possíveis Melhorias](#possíveis-melhorias)
-- [Conclusão](#conclusão)
 
 ---
 
@@ -179,20 +177,3 @@ As regras, conforme exibidas na opção 3 do menu, são as seguintes:
 3. **Interação:**
    - Siga as instruções do menu para iniciar o jogo, inserir nomes e escolher o tamanho do tabuleiro.
    - Durante cada turno, insira as posições (linha e coluna) das cartas que deseja revelar.
-
----
-
-## Possíveis Melhorias
-
-- **Persistência de Pontuação:** Implementar um sistema para armazenar e exibir a pontuação histórica dos jogadores.
-- **Interface Gráfica:** Migrar de uma interface de linha de comando para uma GUI utilizando bibliotecas como Swing ou JavaFX.
-- **Validação de Entrada:** Melhorar a validação de entradas e tratar exceções de forma mais robusta.
-- **Configuração Dinâmica:** Permitir ao usuário escolher cores e outras configurações de jogo diretamente pelo menu.
-
----
-
-## Conclusão
-
-Este código implementa um jogo de memória com regras de pontuação e penalidades que adicionam dinamismo e estratégia ao jogo. Cada classe foi desenhada para modularizar as responsabilidades: desde a criação e manipulação das cartas e do tabuleiro até o controle dos turnos e da pontuação dos jogadores. As regras especiais (como a presença da carta preta) trazem um diferencial e aumentam a complexidade do jogo. Com possíveis melhorias futuras, o jogo pode se tornar ainda mais interativo e robusto.
-
----
